@@ -1,3 +1,8 @@
+--Curso de Engenharia de Software - UniEVANGÉLICA 
+--Disciplina de Sisetmas Gerenciadores de Banco de Dados
+--Dev: Alexandre  
+--11/04/2023
+
 --Crie uma view de relatório
 CREATE VIEW RelatorioUsuarios AS
 SELECT idIndividuo, RG, NoIndividuo, NoPlaneta, NoEspecie, NoUsuarioForca
