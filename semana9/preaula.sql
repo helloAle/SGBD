@@ -1,3 +1,5 @@
+
+
 CREATE VIEW vw_relatorio AS
 SELECT i.NoIndividuo, p.NoPlaneta, e.NoEspecie, f.NoFaccao, fo.NoForceOrganization
 FROM Individuo i
