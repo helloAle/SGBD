@@ -1,7 +1,0 @@
-as três transações críticas mais importantes referentes ao banco de dados de star wars podem ser:
-
-Criação de um novo personagem: Essa transação é crítica, pois adiciona novas informações à tabela "Individuo", que é uma das principais do banco de dados. Se houver algum erro ou inconsistência durante a criação de um novo personagem, isso pode afetar outros processos que dependam desses dados, como a geração de relatórios e a atualização de informações relacionadas à espécie, planeta, facção e força.
-
-Atualização de filiação a uma facção: Essa transação é crítica, pois envolve a atualização da tabela "FaccaoIndividuo", que relaciona os indivíduos com suas respectivas facções. Se houver algum erro ou inconsistência durante a atualização da filiação de um personagem, isso pode afetar outros processos que dependam desses dados, como a geração de relatórios sobre as facções e o controle de acesso a determinados recursos.
-
-Atualização de informações sobre um planeta: Essa transação é crítica, pois envolve a atualização da tabela "Planeta", que contém informações sobre os planetas do universo de Star Wars. Se houver algum erro ou inconsistência durante a atualização de informações sobre um planeta, isso pode afetar outros processos que dependam desses dados, como a geração de relatórios sobre as espécies que habitam determinado planeta e a navegação no universo de Star Wars.
