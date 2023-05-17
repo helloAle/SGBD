@@ -1,4 +1,7 @@
-
+--Curso de Engenharia de Software - UniEVANGÉLICA 
+--Disciplina de Sisetmas Gerenciadores de Banco de Dados
+--Dev: Alexandre  
+--11/04/2023
 
 CREATE VIEW vw_relatorio AS
 SELECT i.NoIndividuo, p.NoPlaneta, e.NoEspecie, f.NoFaccao, fo.NoForceOrganization
